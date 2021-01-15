@@ -129,6 +129,7 @@ nav .fab {
   font-family: "Gibson", sans-serif;
   font-size: 16px;
   color: white;
+  margin-left: -1em;
   padding: 15px 30px;
   background-color: #e45757;
   border-radius: 5px 5px 5px 5px;
@@ -153,6 +154,20 @@ nav .fab {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.card {
+  border: none;
+}
+.c3-img {
+  border-radius: 5px 5px 5px 5px;
+}
+.c3-h2 {
+  text-align: left;
+}
+.c3-p {
+  font-size: 18px;
+  line-height: 1.7em;
 }
 
 /* End of main */
