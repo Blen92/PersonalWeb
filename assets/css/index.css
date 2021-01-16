@@ -134,7 +134,7 @@ li a {
   background-position-x: 50%;
   background-position-y: 0%;
   background-size: cover;
-  height: 700px;
+  height: 730px;
   background-color: rgba(0, 0, 0, 0);
   opacity: 0.9;
 }
@@ -158,9 +158,10 @@ li a {
 }
 .element-1 p {
   font-family: "Verdana, " Geneva ", sans-serif";
+  vertical-align: center;
 }
 .padding {
-  padding: 2em;
+  padding: 1.5em;
 }
 .all-h2 {
   text-align: center;
@@ -229,6 +230,31 @@ li a {
 .c3-p {
   font-size: 18px;
   line-height: 1.7em;
+}
+
+@media only screen and (max-width: 767px) {
+  .banner {
+    max-height: 450px;
+  }
+  .bg-cover {
+    margin-top: 130px;
+    font-size: 55px;
+    line-height: 1.2em;
+    letter-spacing: 2px;
+  }
+  .element-1 p {
+    font-size: 28px;
+    line-height: 1.6em;
+  }
+  .all-p {
+    font-size: 18px;
+  }
+  .first {
+    order: 1;
+  }
+  .last {
+    order: 12;
+  }
 }
 
 /* End of main */
