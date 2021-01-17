@@ -205,9 +205,22 @@ li a {
 .inner-nav a:hover {
   color: rgb(46, 36, 36);
 }
-.ordered-list {
+.ordered-list,
+.form {
   width: 75%;
   margin: auto;
+}
+.form-btn {
+  background-color: #e45757;
+}
+.form-btn a {
+  color: white;
+}
+.form-btn:hover {
+  background-color: #ea6e6e;
+}
+.form-btn a:hover {
+  text-decoration: none;
 }
 
 @media (max-width: 767px) {
@@ -233,7 +246,7 @@ li a {
 /* footer */
 .footer {
   background-color: #1b252f;
-  margin-top: 8%;
+  margin-top: 16%;
   height: 300px;
 }
 .sub-footer {
